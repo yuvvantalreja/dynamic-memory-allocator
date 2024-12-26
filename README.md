@@ -11,10 +11,23 @@ This project implements a custom memory allocator library with advanced debuggin
 - Next Fit
 
 ### Debugging Features:
-
+- Detection of memory corruption
+- Detection of double free
+- Memory leak detection
 
 ### Statistics Tracking:
+- Total memory allocated
+- Total memory freed
+- Current and peak memory usage
+- Total and free block counts
+- Fragmentation metrics
+- Failed allocation count
+
 ### Advanced Memory Management:
+- Block splitting and coalescing
+- Memory defragmentation
+- Alignment support
+- Boundary tags for enhanced block validation
 
 ## Build and Usage
 ### Requirements
