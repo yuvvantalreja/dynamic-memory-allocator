@@ -1,0 +1,44 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     memory_test
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _my_malloc_debug, symObjAddr: 0x0, symBinAddr: 0x100001B6C, symSize: 0x2D8 }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _leaked_blocks, symObjAddr: 0x4E28, symBinAddr: 0x1000080F0, symSize: 0x0 }
+  - { offsetInCU: 0x18D, offset: 0x18D, size: 0x8, addend: 0x0, symName: _heap_mutex, symObjAddr: 0x19A8, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x1E5, offset: 0x1E5, size: 0x8, addend: 0x0, symName: _current_strategy, symObjAddr: 0x4DB8, symBinAddr: 0x100008080, symSize: 0x0 }
+  - { offsetInCU: 0x22D, offset: 0x22D, size: 0x8, addend: 0x0, symName: _stats, symObjAddr: 0x4DC0, symBinAddr: 0x100008088, symSize: 0x0 }
+  - { offsetInCU: 0x2BE, offset: 0x2BE, size: 0x8, addend: 0x0, symName: _heap_start, symObjAddr: 0x4E08, symBinAddr: 0x1000080D0, symSize: 0x0 }
+  - { offsetInCU: 0x368, offset: 0x368, size: 0x8, addend: 0x0, symName: _last_allocated_block, symObjAddr: 0x4E10, symBinAddr: 0x1000080D8, symSize: 0x0 }
+  - { offsetInCU: 0x37D, offset: 0x37D, size: 0x8, addend: 0x0, symName: _last_error, symObjAddr: 0x4E18, symBinAddr: 0x1000080E0, symSize: 0x0 }
+  - { offsetInCU: 0x3CB, offset: 0x3CB, size: 0x8, addend: 0x0, symName: _leak_count, symObjAddr: 0x4E20, symBinAddr: 0x1000080E8, symSize: 0x0 }
+  - { offsetInCU: 0x3E1, offset: 0x3E1, size: 0x8, addend: 0x0, symName: _pool_mutex, symObjAddr: 0x19E8, symBinAddr: 0x100008040, symSize: 0x0 }
+  - { offsetInCU: 0x3F7, offset: 0x3F7, size: 0x8, addend: 0x0, symName: _small_pools, symObjAddr: 0xEA68, symBinAddr: 0x100011D30, symSize: 0x0 }
+  - { offsetInCU: 0x485, offset: 0x485, size: 0x8, addend: 0x0, symName: _my_malloc_debug, symObjAddr: 0x0, symBinAddr: 0x100001B6C, symSize: 0x2D8 }
+  - { offsetInCU: 0x508, offset: 0x508, size: 0x8, addend: 0x0, symName: _find_first_fit, symObjAddr: 0x2E8, symBinAddr: 0x100001E54, symSize: 0x90 }
+  - { offsetInCU: 0x53E, offset: 0x53E, size: 0x8, addend: 0x0, symName: _find_best_fit, symObjAddr: 0x378, symBinAddr: 0x100001EE4, symSize: 0xCC }
+  - { offsetInCU: 0x5AC, offset: 0x5AC, size: 0x8, addend: 0x0, symName: _find_worst_fit, symObjAddr: 0x444, symBinAddr: 0x100001FB0, symSize: 0xC8 }
+  - { offsetInCU: 0x61A, offset: 0x61A, size: 0x8, addend: 0x0, symName: _find_next_fit, symObjAddr: 0x50C, symBinAddr: 0x100002078, symSize: 0xF4 }
+  - { offsetInCU: 0x650, offset: 0x650, size: 0x8, addend: 0x0, symName: _request_space, symObjAddr: 0x600, symBinAddr: 0x10000216C, symSize: 0x108 }
+  - { offsetInCU: 0x694, offset: 0x694, size: 0x8, addend: 0x0, symName: _calculate_checksum, symObjAddr: 0x708, symBinAddr: 0x100002274, symSize: 0x7C }
+  - { offsetInCU: 0x6F4, offset: 0x6F4, size: 0x8, addend: 0x0, symName: _split_block, symObjAddr: 0x784, symBinAddr: 0x1000022F0, symSize: 0x148 }
+  - { offsetInCU: 0x743, offset: 0x743, size: 0x8, addend: 0x0, symName: _update_stats_alloc, symObjAddr: 0x8CC, symBinAddr: 0x100002438, symSize: 0x9C }
+  - { offsetInCU: 0x769, offset: 0x769, size: 0x8, addend: 0x0, symName: _my_free_debug, symObjAddr: 0x968, symBinAddr: 0x1000024D4, symSize: 0x1EC }
+  - { offsetInCU: 0x7BC, offset: 0x7BC, size: 0x8, addend: 0x0, symName: _validate_block, symObjAddr: 0xB54, symBinAddr: 0x1000026C0, symSize: 0x154 }
+  - { offsetInCU: 0x7F2, offset: 0x7F2, size: 0x8, addend: 0x0, symName: _update_stats_free, symObjAddr: 0xCA8, symBinAddr: 0x100002814, symSize: 0x50 }
+  - { offsetInCU: 0x818, offset: 0x818, size: 0x8, addend: 0x0, symName: _set_allocation_strategy, symObjAddr: 0xCF8, symBinAddr: 0x100002864, symSize: 0x40 }
+  - { offsetInCU: 0x83E, offset: 0x83E, size: 0x8, addend: 0x0, symName: _get_allocator_stats, symObjAddr: 0xD38, symBinAddr: 0x1000028A4, symSize: 0x48 }
+  - { offsetInCU: 0x869, offset: 0x869, size: 0x8, addend: 0x0, symName: _get_last_error, symObjAddr: 0xD80, symBinAddr: 0x1000028EC, symSize: 0xC }
+  - { offsetInCU: 0x883, offset: 0x883, size: 0x8, addend: 0x0, symName: _print_heap_debug, symObjAddr: 0xD8C, symBinAddr: 0x1000028F8, symSize: 0x2E0 }
+  - { offsetInCU: 0x8A9, offset: 0x8A9, size: 0x8, addend: 0x0, symName: _defragment_heap, symObjAddr: 0x106C, symBinAddr: 0x100002BD8, symSize: 0x128 }
+  - { offsetInCU: 0x8F3, offset: 0x8F3, size: 0x8, addend: 0x0, symName: _coalesce, symObjAddr: 0x1194, symBinAddr: 0x100002D00, symSize: 0x1FC }
+  - { offsetInCU: 0x919, offset: 0x919, size: 0x8, addend: 0x0, symName: _check_leaks, symObjAddr: 0x1390, symBinAddr: 0x100002EFC, symSize: 0x2B8 }
+  - { offsetInCU: 0x95C, offset: 0x95C, size: 0x8, addend: 0x0, symName: _allocate_from_pool, symObjAddr: 0x1648, symBinAddr: 0x1000031B4, symSize: 0x18C }
+  - { offsetInCU: 0x9A3, offset: 0x9A3, size: 0x8, addend: 0x0, symName: _validate_heap, symObjAddr: 0x17D4, symBinAddr: 0x100003340, symSize: 0x1D0 }
+  - { offsetInCU: 0x26, offset: 0xA27, size: 0x8, addend: 0x0, symName: _test_basic_allocation, symObjAddr: 0x0, symBinAddr: 0x100003510, symSize: 0x208 }
+  - { offsetInCU: 0x59, offset: 0xA5A, size: 0x8, addend: 0x0, symName: _test_basic_allocation, symObjAddr: 0x0, symBinAddr: 0x100003510, symSize: 0x208 }
+  - { offsetInCU: 0xD1, offset: 0xAD2, size: 0x8, addend: 0x0, symName: _test_different_sizes, symObjAddr: 0x208, symBinAddr: 0x100003718, symSize: 0xAC }
+  - { offsetInCU: 0x111, offset: 0xB12, size: 0x8, addend: 0x0, symName: _test_fragmentation, symObjAddr: 0x2B4, symBinAddr: 0x1000037C4, symSize: 0x10C }
+  - { offsetInCU: 0x16D, offset: 0xB6E, size: 0x8, addend: 0x0, symName: _test_allocation_strategies, symObjAddr: 0x3C0, symBinAddr: 0x1000038D0, symSize: 0xE0 }
+  - { offsetInCU: 0x1AD, offset: 0xBAE, size: 0x8, addend: 0x0, symName: _test_memory_leaks, symObjAddr: 0x4A0, symBinAddr: 0x1000039B0, symSize: 0x50 }
+  - { offsetInCU: 0x1C2, offset: 0xBC3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4F0, symBinAddr: 0x100003A00, symSize: 0x54 }
+...
